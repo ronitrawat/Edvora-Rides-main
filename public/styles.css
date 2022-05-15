@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif !important;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.navbar{
+    height: 84px;
+    justify-content: center;
+}
+
+.banner{
+    color: white;
+    font-size: 36px !important;
+    font-weight: 700 !important;
+    /* margin-left: 43px !important; */
+}
+
+.MuiToolbar-gutters{
+    padding: 0 !important;
+    padding-left: 43px !important;
+    padding-right: 43px !important;
+}
+
+.footer{
+    text-align: center !important;
+    /* position: fixed;
+    bottom: 0;
+    width: 100%; */
+}
+
+.userName{
+    font-weight: 700 ;
+    font-size: 20px;
+}
+
+
+.children{
+  min-height: 100vh;
+  margin-left: 43px;
+  margin-right: 43px;
+}
+
+.rideOptions{
+    text-transform: none;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: fit-content !important;
+}
+
+.filterButton{
+    margin-top: 22px;
+    text-transform: none;
+}
+
+.rideCards{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    padding: 22px 29px;
+    position: relative;
+    border-radius: 10px !important;
+}
+
+.imageCard{
+    border-radius: 5px;
+    margin-left: "29px" ;
+}
+
+.rideParams{
+    font-size: 18px !important;
+    width: 100% !important;
+}
+
+.cityStateChip{
+    background-color: "#00000";
+
+}
+
+
+.chipRow{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 22px;
+    margin-right: 29px;
+}
+
+.filterButtons:hover{
+    background-color: '#232323' !important;
+}
+
